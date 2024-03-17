@@ -1,0 +1,58 @@
+body {
+    font-family: 'Inter';
+}
+
+.expenses {
+    padding: 100px;
+}
+
+.expenses_title {
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.expenses_wrap {
+    display: flex;
+    column-gap: 30px;
+    font-size: 32px;
+}
+
+.expenses-input {
+    margin-bottom: 50px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #000000;
+    font-size: 32px;
+}
+
+.limit-title {
+    margin-bottom: 13px;
+}
+
+.sum-title {
+    margin-bottom: 35px;
+}
+
+.expenses-button {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #0094FF;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.status {
+    color: #039000;
+}
+
+.status_red {
+    color: #FC0000;
+}
+
+.history-title {
+    margin-bottom: 20px;
+}
+
+.history-list {
+    margin-left: 50px;
+}

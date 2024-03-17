@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="expenses">
+        <h2 class="expenses_title">Учет расходов</h2>
+        <div class="expenses_wrap">
+            <div class="expenses_data">
+                <input class="js-expenses-input expenses-input" type="number">
+                <p class="limit-title"> <b>Лимит:</b> <span class="js-limit"></span> руб.</p>
+                <p class="sum-title"><b>Всего:</b> <span class="js-sum"></span> руб.</p>
+                <p><b>Статус:</b> <span class="js-status status"></span></p>
+            </div>
+            <div class="expenses_history">
+                <button class="js-expenses-button expenses-button">Добавить</button>
+                <div class="js-history-title history-title"><b>История:</b></div>
+                <div class="js-history-list history-list"></div>         
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
